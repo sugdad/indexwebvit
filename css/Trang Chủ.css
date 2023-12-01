@@ -1,0 +1,266 @@
+body{
+    width: 1000px;
+    margin: auto;
+    background-color: bisque;}
+ div.hearder{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/linectt.jpg);
+ }
+img.anhheader{
+    width: 100%;
+ }
+      
+/* cái này thanh tìm kiếm*/
+ H1.menuu {
+            width: 100%;
+            font-size: 30px;
+            font-weight: 700;
+            font-family: Helvetica, sans-serif;
+            font-style: bold;
+            background-image: url(../img/linectt.jpg);}
+  #menu ul { 
+             
+             list-style-type:armenian;
+             text-align: center;}
+  #menu li {
+            display: inline-block;
+            width: 200px;
+            height: 30px;
+            line-height: 100px;}
+  #menu ul li a {
+            text-decoration:none;
+            color:  rgb(255, 255, 0);
+            display: block;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            }
+  #menu ul li a:hover {
+            background:#1abc9c;
+            color: #0C0A0A;}
+  #menu ul li > .sub-menu {
+            display: none;
+            position: absolute;}
+  #menu li {
+            position: relative;
+            }
+  #menu ul li:hover .sub-menu {
+            background-color: #1abc9c;
+            display: block;}
+/* cái này bên trái*/
+nav.trai{
+    width: 40%;
+    height: 900px;
+    float: left;
+    margin-top: 100px;
+    background-color: #1abc9c;
+    border-radius: 20px 20px 20px 20px ;
+}
+img.anhtrai{
+    width: 90%;
+    height: 300px;
+    margin: 5%  5%  5%  5% ;
+    border-radius: 20px 20px 20px 20px ;
+    object-fit: cover;
+    object-position: 40% 40%;
+}
+
+
+
+
+/* cái này bên phải*/
+nav.phai{
+    width: 60%;
+    height: 900px;
+    float: left;
+    
+    margin-top: 100px;
+}
+div.anh{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+   
+}
+div.text{
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+    
+    }
+.dashed-hr {
+    border-style: dashed;
+    border-width: 1px;
+    width: 100%; /* Điều chỉnh độ rộng của đường đứt quãng */
+    float: left;
+    font-weight: bold;
+    color: #1abc9c;
+   }
+
+/* Đây là đầu code hình trái tim */
+
+.heart {
+	width: 200px;
+	height: 200px;
+	z-index: 1;
+    margin-left: 100PX;
+    margin-top: 100PX;
+	transform: translate(-50%,-50%);
+	animation: heart 1s ease infinite
+}
+
+@keyframes heart {
+	96% {
+		transform: translate(-50%,-50%) scale(.8,.8)
+	}
+	100% {
+		transform: translate(-50%,-50%) scale(1,1)
+	}
+}
+
+.heart div {
+	background: #ff0000;
+	width: 71px;
+	height: 126px;
+	top: 40px;
+	display: block;
+	position: absolute;
+	border-radius: 50%
+	}
+
+.left {
+	left: 45px;
+	transform: rotate(330deg);
+}
+
+.right {
+	right: 45px;
+	transform: rotate(30deg);
+}
+
+
+
+
+/* Đây là code sticker */
+.sticker {
+    cursor: pointer;
+    height: 120px;
+    width: 120px;
+    image-rendering: -webkit-optimize-contrast;
+    background-size: 432px 288px;
+    background-position: -12px -12px;
+    margin-left: 50PX;
+    margin-top: 50PX;
+}
+.sticker-static {
+    background-size: 120px 120px !important;
+    background-position: 0 0 !important;
+}
+.sticker-animate {
+    -webkit-animation-name: stickerAnimation;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-timing-function: step-start;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: both;
+}
+@-webkit-keyframes stickerAnimation {
+      0% {
+           background-position: -12px -12px;
+      }
+      25% {
+        background-position: -156px -12px;
+      }
+      50% {
+        background-position: -300px -12px;
+      }
+      75% {
+        background-position: -156px -156px;
+      }
+      100% {
+        background-position: -12px -156px;
+      }
+}
+.sticker-1 {
+    background-image: url(../img/sticker.png);
+}
+.sticker-2 {
+    background-image: url(../img/sticker-2.png);
+}
+.sticker-3 {
+    background-image: url(../img/sticker-static.png);
+}
+.sticker-4 {
+    background-image: url(../img/sticker-static-2.png);
+}
+/* cái này code chữ*/
+p.p11{
+    margin: 20px 20px 20px 20px;
+    color: #0C0A0A;
+}
+h2{
+    margin-left: 20px;
+}
+
+h1.tenvang{
+    margin-left: 50px;
+    color: rgb(255, 255, 0);
+    font-size: 30px;
+}
+h1.nhandat{
+    margin: 50px 50px 50px 50px;
+    color: #0C0A0A;
+    font-size: 30px;
+    float: left;
+    width: 100%;
+}
+p.p12{
+    margin: 30px 30px 30px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+a.bibo{
+    margin-left: 80%;
+}
+/* cái này code chân trang*/
+nav.CTRANG{
+    width: 100%;
+    float: left;
+}
+div.chantrang{
+    width: 33.33%;
+    height: 200px;
+    background-color: #1abc9c;
+    float: left;
+    margin-top: 100PX;
+}
+div.lin{
+    width: 50%;
+    height: 50px;
+    float: left;
+    margin-top: 50px;
+}
+img.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 70%;
+}
+a.text1{ font-size: 20px;
+    text-decoration:none;
+    
+  }
+img.camon{
+    width: 40%;
+    height: 60%;
+    margin-top: 7%;
+    margin-left:5%;
+    float: left;
+    border-radius: 20PX;
+}
+div.linect{background-image: url(../img/linectt.jpg);
+float: left;
+width: 100%;
+height: 50px;}

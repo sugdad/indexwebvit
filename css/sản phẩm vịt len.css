@@ -1,0 +1,298 @@
+body{
+    width: 1000px;
+    margin: auto;
+    background-color: bisque;}
+/* cái này code menu*/
+    H1.menuu {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Helvetica, sans-serif;
+        font-style: bold;
+        background-image: url(../img/linectt.jpg);}
+#menu ul { 
+         background: url(../img/linectt.jpg) ;
+         list-style-type:armenian;
+         text-align: center;}
+#menu li {
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        line-height: 100px;}
+#menu ul li a {
+        text-decoration:none;
+        color:  rgb(255, 255, 0);
+        display: block;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        }
+#menu ul li a:hover {
+        background:#1abc9c;
+        color: #0C0A0A;}
+#menu ul li > .sub-menu {
+        display: none;
+        position: absolute;}
+#menu li {
+        position: relative;
+        }
+#menu ul li:hover .sub-menu {
+        background-color: #1abc9c;
+        display: block;}
+
+
+/* cái này code bên trái*/
+nav.layoutlef{
+        display: inline-block;
+        width: 45%;
+        height: 650px;       
+        float: left;
+    }
+div.hinhanhsanpham{
+        width: 90%;
+        height: 360;  
+        margin:auto;
+        margin-top: 5%;
+        border:solid red; 
+        border-style: dashed;
+        border-width: 5px;
+        border-radius: 0px 50px 0px 50px;
+        }
+img.anhsanpham{
+        width: 95%;
+        height: 350px;
+        object-fit: cover;
+        object-position: 50% 50%;
+        border-radius: 0px 50px 0px 50px;
+        margin-left: 1.5%;
+        margin-top: 1.5%;
+        border:solid #1abc9c; 
+        }
+img.anhnut{
+        width: 30%;
+        height: 100%;  
+        margin-left: 1%;
+        border:solid white; 
+        border-width: 3px;
+        border-radius: 30px 0px 30px 0px;
+        float: left;
+        object-fit: cover;
+        object-position: 50% 50%;
+        }
+div.container_nut{
+        width: 85%;
+        height: 70px;
+        margin: auto;
+        margin-top: 20px;
+}
+div.chiase{
+        width: 55%;
+        height: 5%;
+        margin-left: 20px;
+        float: left;
+        margin-top: 20px;
+}
+div.ab{
+        width: 25%;
+        height: 100%;
+       
+        float:left ;
+}
+div.ab1{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        float: left;
+        margin-left: 5px;
+}
+img.full{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+}
+
+
+
+
+
+
+ /* cái này code bên phải*/   
+nav.layoutright{
+        width: 55%;
+        height: 650px;
+        float: left;
+        display: inline-block;
+    }
+
+b.red{ 
+        background-color: red;
+        color: white;
+        border-radius: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px ;
+         }
+div.thanh{
+        width: 95%;
+        height: 50px;
+        margin:auto;
+        background-color: azure;  
+        margin-top: 50px;   
+}
+#text2{
+        text-decoration: line-through;
+        float:left;
+        margin: 20px 20px 20px 20px ;
+}
+#text3{
+        font-size: 40px;
+        color:red;
+        float:left;
+        margin: 10px 10px 10px 10px ;
+}
+#text4{
+        width: 90px;
+        height: 20px;
+        background-color: red;
+        color: white;
+        float:left;
+}
+div.thanh1{
+        width: 95%;
+        height: 50px;
+        margin:auto;
+        
+        margin-top: 20px; }
+#text5{
+        float:left;
+        text-decoration:none;
+        color: #0C0A0A;
+
+}
+#text6{
+        width: 120px;
+        height: 20px;
+        background-color: yellow;
+        color: #0C0A0A;
+        float:left;
+        margin-left: 30px;
+        text-decoration:none;
+
+}
+div.size{
+        width: 100%;
+        height: 40px;
+       
+        float: left;
+}
+div.chu{
+        width: 10%;
+        height: 30%;
+        float: left;
+        margin-left: 10PX;
+}
+div.o{
+        width: 15%;
+        height: 50%;
+        border: solid black 1PX;
+        float: left;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 15px;
+        padding: auto;
+}
+.p1{
+        float: left;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-left: 1px;
+}
+.p2{
+        width: 40px;
+        height: 25px;
+        float: left;
+        border: solid black 1px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 1px;
+        
+}
+a{
+        text-decoration:none;
+}
+
+div.size12{
+        width: 500px;
+        height: 50px;
+        float: left;
+        margin-top: 20px;
+        text-align: center;
+       
+        margin-left: 40px;
+}
+
+#them1{
+        width: 40%;
+        height: 100%;
+        border: solid red 1px;
+        color: red;
+        font-size: 20px;
+        margin-left: 10px;
+        float: left;
+}
+#them2{
+        width: 40%;
+        height: 100%;
+       background-color: red;
+       color: white;
+       border: solid red 1px;
+       margin-left: 10PX;
+        font-size: 20px;
+        float: left;
+}
+#themvao{
+        padding: 5px;
+        color: black;
+}
+/* cái này code chân trang*/
+nav.CTRANG{
+        width: 100%;
+        float: left;
+    }
+    div.chantrang{
+        width: 33.33%;
+        height: 200px;
+        background-color: #1abc9c;
+        float: left;
+        margin-top: 50PX;
+    }
+    div.lin{
+        width: 50%;
+        height: 50px;
+        float: left;
+        margin-top: 50px;
+    }
+    img.logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 70%;
+    }
+    a.text1{ font-size: 20px;
+        text-decoration:none;
+        
+      }
+    img.camon{
+        width: 40%;
+        height: 60%;
+        margin-top: 7%;
+        margin-left:5%;
+        float: left;
+        border-radius: 20PX;
+    }
+    div.linect{background-image: url(../img/linectt.jpg);
+    float: left;
+    width: 100%;
+    height: 50px;}
+
+
+    
